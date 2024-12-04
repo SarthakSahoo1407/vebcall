@@ -26,3 +26,8 @@ Before you begin, ensure you have the following installed:
 ```bash
 git clone https://github.com/SarthakSahoo1407/vebcall.git
 cd video-call-spring-boot
+```
+### 2. Running the Spring boot project
+  1. Go to src/main/java/VebcallApplication.java
+  2. Run the project
+     
