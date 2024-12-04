@@ -17,9 +17,9 @@ public class VebcallApplication {
 	@Bean
 	public CommandLineRunner commandLineRunner(UserService service){
 		return args -> {
-			service.register(User.builder().username("sarthak").email("sarthak@gmail.com").password("aaa").build());
-			service.register(User.builder().username("sarthak1").email("sarthak1@gmail.com").password("aaa").build());
-			service.register(User.builder().username("sarthak2").email("sarthak2@gmail.com").password("aaa").build());
+			// service.register(User.builder().username("sarthak").email("sarthak@gmail.com").password("aaa").build());
+			// service.register(User.builder().username("sarthak1").email("sarthak1@gmail.com").password("aaa").build());
+			// service.register(User.builder().username("sarthak2").email("sarthak2@gmail.com").password("aaa").build());
 		};
 	}
 
